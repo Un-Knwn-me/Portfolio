@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@font-face {
+    font-family: "kapakana";
+    src: url("./assets/fonts/kapakana-regular.ttf");
+  }
+  
+@font-face {
+    font-family: "michroma";
+    src: url("./assets/fonts/Michroma-Regular.ttf");
+  }
+
+@font-face {
+    font-family: "redhatregular";
+    src: url("./assets/fonts/RedHatDisplay-Regular.ttf");
+  }
+
+@font-face {
+    font-family: "redhatmedium";
+    src: url("./assets/fonts/RedHatDisplay-Medium.ttf");
+  }
