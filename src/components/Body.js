@@ -320,9 +320,13 @@ const Body = () => {
 
     <div className="grid md:grid-cols-3 gap-4 text-black text-start px-10">
       
-      <div className="transform-gpu text-white mt-20">
+      <div className="transform-gpu text-white mt-10">
         <div className="rounded-2xl bg-white bg-opacity-10 px-10 py-5 shadow-lg backdrop-blur-md max-sm:px-8">
-                dfd
+            <p>
+                  I highly recommend Raghul as a MERN stack developer. He is diligent, optimistic, and a joy to work with.
+                   Raghul's dedication to his work is impressive, and he consistently delivers high-quality solutions in challenging situations
+                    make him a valuable team member.
+            </p>
         </div>
       </div>
     
