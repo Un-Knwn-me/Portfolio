@@ -1,22 +1,22 @@
-import React, { useState } from 'react';
-import { Disclosure } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import React, { useState } from "react";
+import { Disclosure } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Navbar } from "@material-tailwind/react";
 
 const navigation = [
-  { name: 'About', href: '#about' },
-  { name: 'Skills', href: '#skills' },
-  { name: 'Projects', href: '#projects' },
-  { name: 'Resume', href: '#contact' },
-  { name: 'Contact', href: '#contact' },
+  { name: "About", href: "#about" },
+  { name: "Skills", href: "#skills" },
+  { name: "Projects", href: "#projects" },
+  { name: "Resume", href: "#contact" },
+  { name: "Contact", href: "#contact" },
 ];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
+  return classes.filter(Boolean).join(" ");
 }
 
 const Header = () => {
-  const [activeLink, setActiveLink] = useState('About');
+  const [activeLink, setActiveLink] = useState("About");
 
   return (
     <Navbar className="sticky top-0 z-10 bg-white px-16 py-1 shadow-lg backdrop-blur-md max-sm:px-8">
@@ -50,9 +50,9 @@ const Header = () => {
                           href={item.href}
                           className={classNames(
                             activeLink === item.name
-                              ? 'underline underline-offset-26 decoration-4 decoration-red-600 text-black'
-                              : 'text-gray-400',
-                            'rounded-md px-3 py-2 text-sm font-medium'
+                              ? "underline underline-offset-26 decoration-4 decoration-red-600 text-black"
+                              : "text-gray-400",
+                            "rounded-md px-3 py-2 text-sm font-medium"
                           )}
                           onClick={() => setActiveLink(item.name)}
                         >
@@ -74,9 +74,9 @@ const Header = () => {
                     href={item.href}
                     className={classNames(
                       activeLink === item.name
-                        ? 'bg-gray-900 text-white'
-                        : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                      'block rounded-md px-3 py-2 text-base font-medium'
+                        ? "bg-gray-900 text-white"
+                        : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                      "block rounded-md px-3 py-2 text-base font-medium"
                     )}
                     onClick={() => setActiveLink(item.name)}
                   >
