@@ -3,3 +3,22 @@
     background: linear-gradient(109deg, rgba(255, 255, 255, 0.24) 5.45%, rgba(255, 255, 255, 0.00) 140.81%);
     backdrop-filter: blur(1.69999694824219px);
 }
+
+.btnhi{
+border-radius: 10px;
+border: 0.5px solid rgba(255, 255, 255, 0.233);
+background: linear-gradient(109deg, rgba(255, 255, 255, 0.24) 5.45%, rgba(255, 255, 255, 0.00) 140.81%);
+backdrop-filter: blur(106.69999694824219px);
+padding: 10px 30px 10px 15px;
+margin-bottom: 60px;
+color: #FFF;
+font-weight: 300;
+}
+
+.teamreview{
+    border: 0.5px solid rgba(255, 255, 255, 0.151);
+}
+
+.reviewtext{
+    color: rgb(185, 185, 185);
+}
