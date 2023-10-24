@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2e0a60ba.css",
-    "main.js": "/Portfolio/static/js/main.e139d709.js",
+    "main.css": "/Portfolio/static/css/main.aec5ef66.css",
+    "main.js": "/Portfolio/static/js/main.41ebc6f1.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/bg ice mnt.webp": "/Portfolio/static/media/bg ice mnt.170a84c284d18228fce4.webp",
+    "static/media/bg ice mnt.svg": "/Portfolio/static/media/bg ice mnt.bbf43c5b31d6d14ec6a66715ea043bd8.svg",
     "static/media/kapakana-regular.ttf": "/Portfolio/static/media/kapakana-regular.0e4eb9a34ddd1c1d1be7.ttf",
     "static/media/resume.pdf": "/Portfolio/static/media/resume.7231406955c7fdbbaad3.pdf",
     "static/media/head.webp": "/Portfolio/static/media/head.9cbdbf1b3d76d65729fa.webp",
@@ -24,12 +24,12 @@
     "static/media/js.svg": "/Portfolio/static/media/js.34d1962b1877f066f98d9f92b783f7cf.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/css.svg": "/Portfolio/static/media/css.62dd7a7609a4f5253941ee34c348b64e.svg",
-    "main.2e0a60ba.css.map": "/Portfolio/static/css/main.2e0a60ba.css.map",
-    "main.e139d709.js.map": "/Portfolio/static/js/main.e139d709.js.map",
+    "main.aec5ef66.css.map": "/Portfolio/static/css/main.aec5ef66.css.map",
+    "main.41ebc6f1.js.map": "/Portfolio/static/js/main.41ebc6f1.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e0a60ba.css",
-    "static/js/main.e139d709.js"
+    "static/css/main.aec5ef66.css",
+    "static/js/main.41ebc6f1.js"
   ]
 }
