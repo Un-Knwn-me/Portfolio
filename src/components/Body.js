@@ -55,11 +55,8 @@ const Body = () => {
 
         <div className="mx-auto max-w-7xl px-6 lg:px-40">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <button class="btnhi">
-              Hi 👋 I'm Raghul...
-            </button>
+            <button class="btnhi">Hi 👋 I'm Raghul...</button>
 
-            
             <p class="text-white tracking-wider text-[30px] font-normal font-redhatregular leading-[30px] tracking-wide">
               MERN Stack Developer
               <svg
@@ -99,57 +96,101 @@ const Body = () => {
 
           <div className="grid grid-cols-12 mx-auto mt-20">
             <div className="col-span-12 md:col-span-4 grid grid-cols-12">
-            
-            <div className="col-span-2">
-            <a
-                href="https://github.com/Un-Knwn-me"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-              <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 48 48" fill="none">
-                <path d="M19.3625 41.0738C19.3625 40.4558 19.3392 38.4204 19.3392 35.8978C19.3392 34.1331 19.9219 32.9824 20.5812 32.3958C16.4299 31.9151 12.0619 30.2938 12.0619 23.0398C12.0619 20.9744 12.7925 19.2851 13.9865 17.9631C13.7959 17.4831 13.1512 15.5591 14.1719 12.9538C14.1719 12.9538 15.7419 12.4444 19.3159 14.8924C22.3819 14.0477 25.6192 14.0477 28.6852 14.8924C32.2565 12.4444 33.8259 12.9538 33.8259 12.9538C34.8472 15.5591 34.2059 17.4838 34.0112 17.9631C35.2085 19.2851 35.9325 20.9724 35.9325 23.0398C35.9325 30.3098 31.5592 31.9111 27.3879 32.3784C28.0632 32.9664 28.6605 34.1191 28.6605 35.8871C28.6605 38.4151 28.6372 40.4538 28.6372 41.0738C28.6372 41.5818 28.9739 42.1678 29.9239 41.9864C37.3539 39.4811 42.7085 32.3891 42.7085 24.0318C42.7085 13.5798 34.3305 5.10645 23.9972 5.10645C13.6679 5.10645 5.29053 13.5778 5.29053 24.0318C5.29053 32.3924 10.6505 39.4864 18.0919 41.9878C19.0219 42.1624 19.3625 41.5778 19.3625 41.0738Z" fill="#D0CFCE" fill-opacity="0.61"/>
-                <path d="M19.3625 41.0738C19.3625 40.4558 19.3392 38.4204 19.3392 35.8978C19.3392 34.1331 19.9219 32.9824 20.5812 32.3958C16.4299 31.9151 12.0619 30.2938 12.0619 23.0398C12.0619 20.9744 12.7925 19.2851 13.9865 17.9631C13.7959 17.4831 13.1512 15.5591 14.1719 12.9538C14.1719 12.9538 15.7419 12.4444 19.3159 14.8924C22.3819 14.0477 25.6192 14.0477 28.6852 14.8924C32.2565 12.4444 33.8259 12.9538 33.8259 12.9538C34.8472 15.5591 34.2059 17.4838 34.0112 17.9631C35.2085 19.2851 35.9325 20.9724 35.9325 23.0398C35.9325 30.3098 31.5592 31.9111 27.3879 32.3784C28.0632 32.9664 28.6605 34.1191 28.6605 35.8871C28.6605 38.4151 28.6372 40.4538 28.6372 41.0738C28.6372 41.5818 28.9739 42.1678 29.9239 41.9864C37.3539 39.4811 42.7085 32.3891 42.7085 24.0318C42.7085 13.5798 34.3305 5.10645 23.9972 5.10645C13.6679 5.10645 5.29053 13.5778 5.29053 24.0318C5.29053 32.3924 10.6505 39.4864 18.0919 41.9878C19.0219 42.1624 19.3625 41.5778 19.3625 41.0738Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M10.8599 32.0596C12.5719 32.5796 13.2465 33.1496 14.0525 34.5002C14.8559 35.8509 15.7992 37.3582 19.3412 36.4996" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </a>
-            </div>
+              <div className="col-span-2">
+                <a
+                  href="https://github.com/Un-Knwn-me"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="33"
+                    height="33"
+                    viewBox="0 0 48 48"
+                    fill="none"
+                  >
+                    <path
+                      d="M19.3625 41.0738C19.3625 40.4558 19.3392 38.4204 19.3392 35.8978C19.3392 34.1331 19.9219 32.9824 20.5812 32.3958C16.4299 31.9151 12.0619 30.2938 12.0619 23.0398C12.0619 20.9744 12.7925 19.2851 13.9865 17.9631C13.7959 17.4831 13.1512 15.5591 14.1719 12.9538C14.1719 12.9538 15.7419 12.4444 19.3159 14.8924C22.3819 14.0477 25.6192 14.0477 28.6852 14.8924C32.2565 12.4444 33.8259 12.9538 33.8259 12.9538C34.8472 15.5591 34.2059 17.4838 34.0112 17.9631C35.2085 19.2851 35.9325 20.9724 35.9325 23.0398C35.9325 30.3098 31.5592 31.9111 27.3879 32.3784C28.0632 32.9664 28.6605 34.1191 28.6605 35.8871C28.6605 38.4151 28.6372 40.4538 28.6372 41.0738C28.6372 41.5818 28.9739 42.1678 29.9239 41.9864C37.3539 39.4811 42.7085 32.3891 42.7085 24.0318C42.7085 13.5798 34.3305 5.10645 23.9972 5.10645C13.6679 5.10645 5.29053 13.5778 5.29053 24.0318C5.29053 32.3924 10.6505 39.4864 18.0919 41.9878C19.0219 42.1624 19.3625 41.5778 19.3625 41.0738Z"
+                      fill="#D0CFCE"
+                      fill-opacity="0.61"
+                    />
+                    <path
+                      d="M19.3625 41.0738C19.3625 40.4558 19.3392 38.4204 19.3392 35.8978C19.3392 34.1331 19.9219 32.9824 20.5812 32.3958C16.4299 31.9151 12.0619 30.2938 12.0619 23.0398C12.0619 20.9744 12.7925 19.2851 13.9865 17.9631C13.7959 17.4831 13.1512 15.5591 14.1719 12.9538C14.1719 12.9538 15.7419 12.4444 19.3159 14.8924C22.3819 14.0477 25.6192 14.0477 28.6852 14.8924C32.2565 12.4444 33.8259 12.9538 33.8259 12.9538C34.8472 15.5591 34.2059 17.4838 34.0112 17.9631C35.2085 19.2851 35.9325 20.9724 35.9325 23.0398C35.9325 30.3098 31.5592 31.9111 27.3879 32.3784C28.0632 32.9664 28.6605 34.1191 28.6605 35.8871C28.6605 38.4151 28.6372 40.4538 28.6372 41.0738C28.6372 41.5818 28.9739 42.1678 29.9239 41.9864C37.3539 39.4811 42.7085 32.3891 42.7085 24.0318C42.7085 13.5798 34.3305 5.10645 23.9972 5.10645C13.6679 5.10645 5.29053 13.5778 5.29053 24.0318C5.29053 32.3924 10.6505 39.4864 18.0919 41.9878C19.0219 42.1624 19.3625 41.5778 19.3625 41.0738Z"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10.8599 32.0596C12.5719 32.5796 13.2465 33.1496 14.0525 34.5002C14.8559 35.8509 15.7992 37.3582 19.3412 36.4996"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
 
-            <div className="col-span-2">
-              <a
-                href="mailto:raghul9510@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-              <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 48 48" fill="none">
-                <path opacity="0.3" d="M40 12H8L24 21.98L40 12ZM8 16V36H40V16L24 26L8 16Z" fill="#F4F4F4"/>
-                <path d="M40 8H8C5.8 8 4 9.8 4 12V36C4 38.2 5.8 40 8 40H40C42.2 40 44 38.2 44 36V12C44 9.8 42.2 8 40 8ZM40 12L24 21.98L8 12H40ZM40 36H8V16L24 26L40 16V36Z" fill="#F4F4F4"/>
-              </svg>
-              </a>
-            </div>
+              <div className="col-span-2">
+                <a
+                  href="mailto:raghul9510@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="33"
+                    height="33"
+                    viewBox="0 0 48 48"
+                    fill="none"
+                  >
+                    <path
+                      opacity="0.3"
+                      d="M40 12H8L24 21.98L40 12ZM8 16V36H40V16L24 26L8 16Z"
+                      fill="#F4F4F4"
+                    />
+                    <path
+                      d="M40 8H8C5.8 8 4 9.8 4 12V36C4 38.2 5.8 40 8 40H40C42.2 40 44 38.2 44 36V12C44 9.8 42.2 8 40 8ZM40 12L24 21.98L8 12H40ZM40 36H8V16L24 26L40 16V36Z"
+                      fill="#F4F4F4"
+                    />
+                  </svg>
+                </a>
+              </div>
 
-            <div className="col-span-2 pt-1">
-              <a
-                href="https://www.linkedin.com/in/raghul-manoharan-155705104"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 40 40" fill="none">
-                  <g clip-path="url(#clip0_1008_191)">
-                    <rect width="40" height="40" rx="5" fill="#EBEBEB"/>
-                    <path d="M0 2.865C0 1.2825 1.315 0 2.9375 0H37.0625C38.685 0 40 1.2825 40 2.865V37.135C40 38.7175 38.685 40 37.0625 40H2.9375C1.315 40 0 38.7175 0 37.135V2.865ZM12.3575 33.485V15.4225H6.355V33.485H12.3575ZM9.3575 12.955C11.45 12.955 12.7525 11.57 12.7525 9.835C12.715 8.0625 11.4525 6.715 9.3975 6.715C7.3425 6.715 6 8.065 6 9.835C6 11.57 7.3025 12.955 9.3175 12.955H9.3575ZM21.6275 33.485V23.3975C21.6275 22.8575 21.6675 22.3175 21.8275 21.9325C22.26 20.855 23.2475 19.7375 24.9075 19.7375C27.08 19.7375 27.9475 21.3925 27.9475 23.8225V33.485H33.95V23.125C33.95 17.575 30.99 14.995 27.04 14.995C23.855 14.995 22.4275 16.745 21.6275 17.9775V18.04H21.5875C21.6008 18.0191 21.6141 17.9983 21.6275 17.9775V15.4225H15.6275C15.7025 17.1175 15.6275 33.485 15.6275 33.485H21.6275Z" fill="#9C9C9C" fill-opacity="0.84"/>
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1008_191">
-                      <rect width="40" height="40" rx="5" fill="white"/>
-                    </clipPath>
-                  </defs>
-                </svg>
-              </a>
+              <div className="col-span-2 pt-1">
+                <a
+                  href="https://www.linkedin.com/in/raghul-manoharan-155705104"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="24"
+                    viewBox="0 0 40 40"
+                    fill="none"
+                  >
+                    <g clip-path="url(#clip0_1008_191)">
+                      <rect width="40" height="40" rx="5" fill="#EBEBEB" />
+                      <path
+                        d="M0 2.865C0 1.2825 1.315 0 2.9375 0H37.0625C38.685 0 40 1.2825 40 2.865V37.135C40 38.7175 38.685 40 37.0625 40H2.9375C1.315 40 0 38.7175 0 37.135V2.865ZM12.3575 33.485V15.4225H6.355V33.485H12.3575ZM9.3575 12.955C11.45 12.955 12.7525 11.57 12.7525 9.835C12.715 8.0625 11.4525 6.715 9.3975 6.715C7.3425 6.715 6 8.065 6 9.835C6 11.57 7.3025 12.955 9.3175 12.955H9.3575ZM21.6275 33.485V23.3975C21.6275 22.8575 21.6675 22.3175 21.8275 21.9325C22.26 20.855 23.2475 19.7375 24.9075 19.7375C27.08 19.7375 27.9475 21.3925 27.9475 23.8225V33.485H33.95V23.125C33.95 17.575 30.99 14.995 27.04 14.995C23.855 14.995 22.4275 16.745 21.6275 17.9775V18.04H21.5875C21.6008 18.0191 21.6141 17.9983 21.6275 17.9775V15.4225H15.6275C15.7025 17.1175 15.6275 33.485 15.6275 33.485H21.6275Z"
+                        fill="#9C9C9C"
+                        fill-opacity="0.84"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1008_191">
+                        <rect width="40" height="40" rx="5" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
             </div>
-
           </div>
-          </div>
-
         </div>
       </div>
 
@@ -210,8 +251,7 @@ const Body = () => {
 
                   <div class="my-10 max-w-md mx-auto rounded-xl mt-20 overflow-hidden md:max-w-2xl">
                     <div class="md:flex">
-
-                    <div class="md:shrink-0">
+                      <div class="md:shrink-0">
                         <img
                           class="h-48 w-full object-cover md:h-full md:w-48"
                           src="https://images.pexels.com/photos/8761559/pexels-photo-8761559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -352,7 +392,6 @@ const Body = () => {
                           </div>
                         </div>
                       </div>
-                  
                     </div>
                   </div>
 
@@ -541,9 +580,11 @@ const Body = () => {
                           - Flutter Developer
                         </p>
                         <p className="font-redhatregular text-sm mt-3 indent-8 reviewtext">
-                        I'm pleased to recommend Raghul for his budding talent in web development. 
-                        He has consistently demonstrated remarkable problem-solving skills and a keen intellect, 
-                        making him a quick learner with great potential.
+                          I'm pleased to recommend Raghul for his budding talent
+                          in web development. He has consistently demonstrated
+                          remarkable problem-solving skills and a keen
+                          intellect, making him a quick learner with great
+                          potential.
                         </p>
                       </div>
                     </a>
@@ -612,11 +653,14 @@ const Body = () => {
       <footer id="contact">
         <div className="relative isolate overflow-hidden bg-white py-10 px-10 md:px-40">
           <div className="grid md:grid-cols-12 gap-6 text-black text-start">
-
             <div className="text-center md:text-left col-span-12 md:col-span-4 mx-auto">
               <p className="font-redhatmedium text-xl mb-8">Contact me</p>
 
-              <a href="tel:+91822060110" rel="noopener noreferrer" className="text-left">
+              <a
+                href="tel:+91822060110"
+                rel="noopener noreferrer"
+                className="text-left"
+              >
                 <p className="font-redhatregular text-l">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
