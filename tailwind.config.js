@@ -11,6 +11,8 @@ module.exports = {
         michroma: ["michroma", "sans-serif"],
         redhatregular: ["redhatregular", "sans-serif"],
         redhatmedium: ["redhatmedium", "sans-serif"],
+        poppinslight: ["poppins-Light", "sans-serif"],
+        poppinsregular: ["poppins-Regular", "sans-serif"]
       },
       textUnderlineOffset: {
         14: '14px',

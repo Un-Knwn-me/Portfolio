@@ -55,7 +55,9 @@ const Body = () => {
 
         <div className="mx-auto max-w-7xl px-6 lg:px-40">
           <div className="mx-auto max-w-2xl lg:mx-0">
+            <div className="font-poppinslight">
             <button class="btnhi">Hi 👋 I'm Raghul...</button>
+            </div>
 
             <p class="text-white tracking-wider text-[30px] font-normal font-redhatregular leading-[30px] tracking-wide">
               MERN Stack Developer
@@ -652,9 +654,9 @@ const Body = () => {
       {/* contacts */}
       <footer id="contact">
         <div className="relative isolate overflow-hidden bg-white py-10 px-10 md:px-40">
-          <div className="grid md:grid-cols-12 gap-6 text-black text-start">
+          <div className="grid md:grid-cols-12 gap-10 text-black text-start">
             <div className="text-center md:text-left col-span-12 md:col-span-4 mx-auto">
-              <p className="font-redhatmedium text-xl mb-8">Contact me</p>
+              <p className="font-redhatmedium text-xl mb-6">Contact me</p>
 
               <a
                 href="tel:+91822060110"
@@ -667,7 +669,7 @@ const Body = () => {
                     className="inline mr-2 my-2"
                     width="30"
                     height="30"
-                    viewBox="0 0 32 32"
+                    viewBox="0 0 40 36"
                     fill="none"
                   >
                     <path

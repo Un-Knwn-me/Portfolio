@@ -21,3 +21,13 @@
     font-family: "redhatmedium";
     src: url("./assets/fonts/RedHatDisplay-Medium.ttf");
   }
+
+@font-face {
+    font-family: "pippinsregular";
+    src: url("./assets/fonts/Poppins-Regular.ttf");
+  }
+
+@font-face {
+    font-family: "poppinslight";
+    src: url("./assets/fonts/Poppins-Light.ttf");
+  }
